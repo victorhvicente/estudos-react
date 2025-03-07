@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Batman from './assets/batman.jpg';
+import ExemploHook from './components/ExemploHook';
+import RenderizarLista from './components/RenderizarLista';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+       <h1>Avançando em React</h1>
+      <div>
+          {/* imagem em public */}
+          <img src="/spiderman.png" alt="Homem-Aranha"/>
+      </div>
+      <div>
+        {/* imagem em src/assets */}
+        <img src={Batman} alt="Batman"></img>
+      </div>
+      <ExemploHook />
+      <RenderizarLista />
     </div>
   );
 }
