@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+.red-title {
+  background-color: black;
+  color: red;
+  padding: 15px;
+  border: 5px solid red;
+}

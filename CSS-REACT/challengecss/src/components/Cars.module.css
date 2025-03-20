@@ -1,0 +1,19 @@
+
+.my_list {
+    list-style-type: none;
+    border: 1px solid black;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.my_opc {
+    font-size: 25px;
+    margin: 8px;
+    background-color: yellow;
+    width: 40%;
+    color: #000;
+}
