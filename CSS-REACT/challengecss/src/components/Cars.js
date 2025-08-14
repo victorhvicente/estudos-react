@@ -6,7 +6,9 @@ const Cars = () => {
     const cars = [
         { id: 1, carro: "Civic", marca: "Honda", cor: "Black" },
         { id: 2, carro: "Corolla", marca: "Toyota", cor: "Gray" }, 
-        { id: 3, carro: "Golf SportLine", marca: "Volkswagen", cor: "Blue" }
+        { id: 3, carro: "Golf SportLine", marca: "Volkswagen", cor: "Blue" },
+        { id: 4, carro: "Model 3", marca: "Tesla", cor: "White" },
+        { id: 5, carro: "Mustang", marca: "Ford", cor: "Red" }
     ];
 
     return (
